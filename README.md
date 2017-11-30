@@ -21,3 +21,5 @@ choose one that you want to use
 * `./speed`
 * `./man`
 * `./stat`
+* `./bmon`
+* `./errno`
