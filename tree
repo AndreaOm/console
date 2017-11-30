@@ -1,0 +1,12 @@
+DIRS="/sys /dev"
+
+while true; do
+	for d1 in $DIRS; do
+		for d2 in $d1/*; do
+			if [ -x $d2 ]; then
+				tree $d2
+				sleep 0.5
+			fi
+		done
+	done
+done
